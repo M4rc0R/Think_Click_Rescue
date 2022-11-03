@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 06a3d5efbb28f084e87ee3193420bfe3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Gemini Moon
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8b2dd294cb33d7b4c882b0e67401e798, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
