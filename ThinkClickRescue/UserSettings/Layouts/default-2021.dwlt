@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 96
+  controlID: 19
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 84
+  controlID: 53
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 85
+  controlID: 97
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -627,23 +627,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Editor
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Editor
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\marco\Documents\Faculdade - Impacta\Think Click Rescue_\Projeto_Final
-    - 0.3\ThinkClickRescue
+  m_LastProjectPath: C:\Users\marco\Documents\Faculdade - Impacta\TCR_Alfa\Think_Click_Rescue\ThinkClickRescue
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a65f0000
-    m_LastClickedID: 24486
-    m_ExpandedIDs: 000000009a5f00009c5f000000ca9a3b
+    m_SelectedIDs: ac5f0000
+    m_LastClickedID: 24492
+    m_ExpandedIDs: 000000009a5f00009c5f0000ac5f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -762,7 +761,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 319
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -799,9 +798,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 7a710000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0276ffff4a76ffffcc77ffffe077fffff277ffff0478ffff1478ffff2478ffff3478ffff4478ffff6678ffff7278fffffc78ffffc27cffff5a81ffff3494fffffe95ffffa499ffffe899ffff2c9affff869affffe49affffbc9cffff6a9efffff8a0ffffdaa8ffff36a9ffff82a9ffff6aacffff28aeffff3cb2ffff3eb2ffff84b2ffffd8b2fffff0b4ffff6cb9ffff6eb9ffffacb9ffff7cbeffffc8beffff0ac0ffff12c3fffff4c9fffff6c9ffff38caffffa4cbffff7cceffff70cfffffdacfffff1ed0ffffa0daffffaadaffffeadaffff5cdfffff2ee2fffffae2ffff50e5ffffbaf1ffff2afbfffffc930000069400003a940000dc980000fc9f0000e8a20000f2a20000fca300004ca4000066a60000e0a700000eab00004aab00008cac0000e4ac00003ead0000feb000001ab1000038b100004ab1000054b100006eb10000c6b2000018b3000042b3000088b30000f4b30000aab50000c4b50000e0b50000f6b50000f4b6000022b700003ab7000050b7000094b7000072bc00008cd90000
+      m_ExpandedIDs: 7af6ffffc4f7ffff08f8ffff72f8ffffb6f8ffff16f9ffff2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1072,9 +1071,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.9523317, y: 0.59452295, z: -10.493941}
+    m_Target: {x: 0.27190194, y: 0.010740541, z: -10.445548}
     speed: 2
-    m_Value: {x: 1.9523317, y: 0.59452295, z: -10.493941}
+    m_Value: {x: 0.27190194, y: 0.010740541, z: -10.445548}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1125,9 +1124,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.626387
+    m_Target: 6.530836
     speed: 2
-    m_Value: 8.626387
+    m_Value: 6.530836
   m_Ortho:
     m_Target: 1
     speed: 2
