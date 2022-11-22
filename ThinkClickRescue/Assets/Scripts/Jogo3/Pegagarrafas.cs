@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Pegagarrafas : MonoBehaviour
 {
-    public float speedWin;
+    public string venci;
+    public string perdi;
     private bool win;
     private bool loser;
 
@@ -51,13 +53,13 @@ public class Pegagarrafas : MonoBehaviour
         {
             Timer.AcabaTempo = false;
             Timer.ParaTempo = true;
-            panel.transform.position = Vector2.MoveTowards(panel.transform.position, camerapos.transform.position, speedWin * Time.deltaTime);
+            SceneManager.LoadScene(venci);
         }
 
         if (Timer.AcabaTempo == true)         
         {
-            
-            panel2.transform.position = Vector2.MoveTowards(panel2.transform.position, camerapos.transform.position, speedWin * Time.deltaTime);
+
+            SceneManager.LoadScene(perdi);
         }
 
     }

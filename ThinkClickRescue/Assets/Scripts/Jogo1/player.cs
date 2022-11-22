@@ -1,21 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
-
-    public float speedWin;
     private bool win;
     private bool loser;
+    public string venci;
+    public string perdi;
 
     public Animator animator;
     public float speed;
 
-    public GameObject panel;
-    public GameObject panel2;
-
-    public GameObject camerapos;
+   
     
 
     // Start is called before the first frame update
@@ -64,13 +62,13 @@ public class player : MonoBehaviour
         {
             Timer.AcabaTempo = false;
             Timer.ParaTempo = true;
-            panel.transform.position = Vector2.MoveTowards(panel.transform.position, camerapos.transform.position, speedWin * Time.deltaTime);
+            SceneManager.LoadScene(venci);
         }
 
         if (loser == true || Timer.AcabaTempo == true)         
         {
             Timer.ParaTempo = true;
-            panel2.transform.position = Vector2.MoveTowards(panel2.transform.position, camerapos.transform.position, speedWin * Time.deltaTime);
+            SceneManager.LoadScene(perdi);
         }
 
     }

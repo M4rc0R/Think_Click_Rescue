@@ -17,7 +17,7 @@ public class MoverObjeto : MonoBehaviour
 
     [HideInInspector]
 
-    public bool estaConectado;
+    private bool estaConectado;
 
     [Range (1, 15)]
     public float velocidadeMovimento = 10;

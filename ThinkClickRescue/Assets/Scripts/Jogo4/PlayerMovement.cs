@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // script de movimentos e velocidade do jogador
 public class PlayerMovement : MonoBehaviour
@@ -10,14 +11,13 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator anim;
 
-    public float speedWin;
+    public string venci;
+    public string perdi;
+
     private bool win;
     private bool loser;
 
-    public GameObject panel;
-    public GameObject panel2;
-
-    public GameObject camerapos;
+    
 
     private float dirX = 0f;
     private float dirY = 0f;
@@ -99,13 +99,13 @@ public class PlayerMovement : MonoBehaviour
         {
             Timer.AcabaTempo = false;
             Timer.ParaTempo = true;
-            panel.transform.position = Vector2.MoveTowards(panel.transform.position, camerapos.transform.position, speedWin * Time.deltaTime);
+            SceneManager.LoadScene(venci);
         }
 
         if (loser == true || Timer.AcabaTempo == true)
         {
             Timer.ParaTempo = true;
-            panel2.transform.position = Vector2.MoveTowards(panel2.transform.position, camerapos.transform.position, speedWin * Time.deltaTime);
+            SceneManager.LoadScene(perdi);
         }
 
     }

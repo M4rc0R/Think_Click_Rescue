@@ -12,17 +12,10 @@ public class PlayerScrips : MonoBehaviour
 
     Rigidbody2D RB;
 
-
-    public float speedWin;
+    public string venci;
+    public string perdi;
     private bool win;
     private bool loser;
-
-
-    public GameObject panel;
-    public GameObject panel2;
-
-    public GameObject camerapos;
-
 
     public void Start()
     {
@@ -78,14 +71,14 @@ public class PlayerScrips : MonoBehaviour
         if(win == true || Timer.AcabaTempo == true)
         {
             Timer.AcabaTempo = true;
-            
-            panel.transform.position = Vector2.MoveTowards(panel.transform.position, camerapos.transform.position, speedWin * Time.deltaTime);
+
+            SceneManager.LoadScene(venci);
         }
 
         if (loser == true )         
         {
-            
-            panel2.transform.position = Vector2.MoveTowards(panel2.transform.position, camerapos.transform.position, speedWin * Time.deltaTime);
+
+            SceneManager.LoadScene(perdi);
         }
 
     }
