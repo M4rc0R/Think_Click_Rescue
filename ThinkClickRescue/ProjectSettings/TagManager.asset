@@ -7,6 +7,9 @@ TagManager:
   - pontoA
   - pontoB
   - garrafa
+  - enunciado1
+  - polen
+  - FumacaPoluente
   layers:
   - Default
   - TransparentFX
