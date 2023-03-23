@@ -11,8 +11,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator anim;
 
-    public string venci;
-    public string perdi;
+    public GameObject vitoria;
+    public AudioSource audio;
 
     private bool win;
     private bool loser;
@@ -97,16 +97,11 @@ public class PlayerMovement : MonoBehaviour
     {
         if (win == true)
         {
-            Timer.AcabaTempo = false;
-            Timer.ParaTempo = true;
-            SceneManager.LoadScene(venci);
+            vitoria.SetActive(true);
+            audio.mute = true;
         }
 
-        if (loser == true || Timer.AcabaTempo == true)
-        {
-            Timer.ParaTempo = true;
-            SceneManager.LoadScene(perdi);
-        }
+        
 
     }
 

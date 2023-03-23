@@ -7,8 +7,9 @@ public class PlayerLife : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
-    
-    public string perdi;
+
+    public GameObject derrota;
+    public AudioSource audio;
 
     //[SerializeField] private AudioSource deathSoundEffect;
 
@@ -31,7 +32,8 @@ public class PlayerLife : MonoBehaviour
     {
         //deathSoundEffect.Play();
         rb.bodyType = RigidbodyType2D.Static;
-        SceneManager.LoadScene(perdi);
+        derrota.SetActive(true);
+        audio.mute = true;
         //anim.SetTrigger("death");
     }
 

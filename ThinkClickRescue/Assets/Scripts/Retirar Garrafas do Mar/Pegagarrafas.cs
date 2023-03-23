@@ -5,29 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class Pegagarrafas : MonoBehaviour
 {
-    public string venci;
-    public string perdi;
     private bool win;
-    private bool loser;
-
-    public GameObject panel;
-    public GameObject panel2;
-
+     
+    public GameObject vitoria;
     public GameObject camerapos;
+    public AudioSource audio;
     public int ContatGarrafas;
+
+    
 
     private void Start()
     {
         win = false;
-        loser = false;
+       
     }
 
     private void Update()
     {
-        if(Timer.AcabaTempo == true)
-        {
-            loser = true;
-        }
+       
         WinLoseGame();
     }
 
@@ -51,16 +46,10 @@ public class Pegagarrafas : MonoBehaviour
     {
         if(win == true)
         {
-            Timer.AcabaTempo = false;
-            Timer.ParaTempo = true;
-            SceneManager.LoadScene(venci);
+            vitoria.SetActive(true);
+            audio.mute = true;
         }
 
-        if (Timer.AcabaTempo == true)         
-        {
-
-            SceneManager.LoadScene(perdi);
-        }
 
     }
 }

@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Jogador_Abelha : MonoBehaviour
 {
-    public string vitoria;
+    
     public bool coletouPolen;
     public int polenColetados;
+    public GameObject vitoria;
+   
 
 
-    private float velocidadeAbelha = 5f;
+    private float velocidadeAbelha = 7f;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Vector2 moveDirection;
@@ -65,7 +67,8 @@ public class Jogador_Abelha : MonoBehaviour
     {
         if (win == true) 
         {
-            SceneManager.LoadScene(vitoria);
+            vitoria.SetActive(true);
+            
         
         }
     
