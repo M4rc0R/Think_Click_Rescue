@@ -2,25 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class player : MonoBehaviour
 {
+
+    public float speed;
+    public GameObject vitoria;
+    public GameObject derrota;
+    public AudioSource audio;
+    public Animator animator;
+
+
     private bool win;
     private bool loser;
-    public string venci;
-    public string perdi;
 
-    public Animator animator;
-    public float speed;
 
-   
-    
 
     // Start is called before the first frame update
     void Start()
     {
-        
-        
         win = false;
         loser = false;
     }
@@ -60,15 +61,14 @@ public class player : MonoBehaviour
     {
         if(win == true)
         {
-            Timer.AcabaTempo = false;
-            Timer.ParaTempo = true;
-            SceneManager.LoadScene(venci);
+            vitoria.SetActive(true);
+            audio.mute = true;
         }
 
-        if (loser == true || Timer.AcabaTempo == true)         
+        if (loser == true)         
         {
-            Timer.ParaTempo = true;
-            SceneManager.LoadScene(perdi);
+            derrota.SetActive(true);
+            audio.mute = true;
         }
 
     }

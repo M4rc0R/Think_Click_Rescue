@@ -737,7 +737,7 @@ MonoBehaviour:
   derrota: {fileID: 1780293447}
   audio: {fileID: 1966204664}
   timer_foreground_image: {fileID: 2145870603}
-  max_time: 180
+  max_time: 5
 --- !u!4 &497329484
 Transform:
   m_ObjectHideFlags: 0
@@ -1986,7 +1986,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1780293448
 RectTransform:
   m_ObjectHideFlags: 0
