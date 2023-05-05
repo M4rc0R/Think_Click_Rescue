@@ -30,8 +30,9 @@ public class MoverObjeto : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         _rigidbody2D = transform.root.GetComponent<Rigidbody2D>();
-        _rigidbody2D.gravityScale = 0;
+        
        
     }
 

@@ -9,6 +9,7 @@ public class Game_Bee_Timer : MonoBehaviour
     public GameObject derrota;
     public AudioSource audio;
     public Image timer_foreground_image;
+    
     float time_remaining;
     public float max_time;
 
@@ -30,6 +31,7 @@ public class Game_Bee_Timer : MonoBehaviour
         {
             derrota.SetActive(true);
             audio.mute = true;
+            
 
         }
        

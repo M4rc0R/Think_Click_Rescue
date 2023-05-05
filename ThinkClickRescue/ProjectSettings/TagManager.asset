@@ -10,6 +10,8 @@ TagManager:
   - enunciado1
   - polen
   - FumacaPoluente
+  - Coleta
+  - GPet
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Drag
   - 
   - 
   - 

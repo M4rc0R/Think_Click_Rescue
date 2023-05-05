@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GerenciarCarros : MonoBehaviour
 {
 
-    public bool temFumaca;
+    public bool temFumaca = true;
     public GameObject fumaca;
     public GameObject derrota;
     public GameObject vitoria;
@@ -18,14 +18,15 @@ public class GerenciarCarros : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time_remaining = max_time;
+        
         temFumaca = true;
-        fumaca  = GameObject.FindGameObjectWithTag("FumacaPoluente");
+        time_remaining = max_time;
     }
 
     
     void Update()
     {
+        
 
         if (time_remaining > 0)
         {
@@ -41,10 +42,11 @@ public class GerenciarCarros : MonoBehaviour
 
 
 
-        if (fumaca == null) 
+        if (FumacaLigada1.destuiu == true && FumacaLigada2.destuiu2 == true && FumacaLigada3.destuiu3 == true && FumacaLigada4.destuiu4 == true) 
         {
 
             temFumaca = false;
+            Time.timeScale = 0;
             vitoria.SetActive(true);
         
         }

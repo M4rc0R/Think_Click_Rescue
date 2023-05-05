@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Jogador_Abelha : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Jogador_Abelha : MonoBehaviour
     public bool coletouPolen;
     public int polenColetados;
     public GameObject vitoria;
+    public Text pontuacao;
    
 
 
@@ -23,7 +25,9 @@ public class Jogador_Abelha : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
         coletouPolen = false;
+        polenColetados = 0;
         win = false;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -36,6 +40,8 @@ public class Jogador_Abelha : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
 
         moveDirection = new Vector2(horizontal, vertical);
+
+        pontuacao.text = "Pólem coletado: " + polenColetados;
 
 
         if (polenColetados == 4) 
@@ -59,7 +65,9 @@ public class Jogador_Abelha : MonoBehaviour
     {
         if (collision.gameObject.tag == "polen") 
         {
-            polenColetados ++;
+            
+            polenColetados = polenColetados + 1;
+            sr.color = Color.yellow;
         }
     }
 
@@ -68,7 +76,7 @@ public class Jogador_Abelha : MonoBehaviour
         if (win == true) 
         {
             vitoria.SetActive(true);
-            
+            Time.timeScale = 0;
         
         }
     

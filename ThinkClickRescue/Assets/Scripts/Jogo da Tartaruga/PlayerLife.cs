@@ -34,6 +34,7 @@ public class PlayerLife : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
         derrota.SetActive(true);
         audio.mute = true;
+        Time.timeScale = 0;
         //anim.SetTrigger("death");
     }
 

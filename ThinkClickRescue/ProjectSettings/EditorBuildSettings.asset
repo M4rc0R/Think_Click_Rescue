@@ -12,27 +12,69 @@ EditorBuildSettings:
     path: Assets/Scenes/Mapa e Menu/mapa.unity
     guid: 1c008a4d6d4831a4e84e72c8d67f620f
   - enabled: 1
+    path: Assets/Scenes/Game_Queimadas/Correr_Fogo_gato.unity
+    guid: f8554be8eddfdbd4e830f1e7bf278821
+  - enabled: 1
     path: Assets/Scenes/Game_Queimadas/Correr_Fogo_urso.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Ciclo da vida/Abelha_Polem.unity
-    guid: c6bd8218179e90240a3a2f4b90794fb5
-  - enabled: 1
-    path: Assets/Scenes/Game_Mar/Retirar_Garrafas.unity
-    guid: 2ef69c6fe39d2da44bf358ad3d80fcb3
   - enabled: 1
     path: Assets/Scenes/Games Poluicao/Carross.unity
     guid: 267ec0bb887f92347b17a1220333846a
   - enabled: 1
-    path: Assets/Scenes/Game_Mar/Lixo_Tartaruga.unity
-    guid: 46dc6b0b73b5e6b40bf7689abe274a73
-  - enabled: 1
-    path: Assets/Scenes/Game_Queimadas/Correr_Fogo_gato.unity
-    guid: f8554be8eddfdbd4e830f1e7bf278821
+    path: Assets/Scenes/Ciclo da vida/Abelha_Polem.unity
+    guid: c6bd8218179e90240a3a2f4b90794fb5
   - enabled: 1
     path: Assets/Scenes/Games Poluicao/Fabrica.unity
     guid: 1df2cabd0b4a40a4da33350df083bdad
   - enabled: 1
+    path: Assets/Scenes/Game_Mar/Retirar_Garrafas.unity
+    guid: 2ef69c6fe39d2da44bf358ad3d80fcb3
+  - enabled: 1
+    path: Assets/Scenes/Game_Mar/Lixo_Tartaruga.unity
+    guid: 46dc6b0b73b5e6b40bf7689abe274a73
+  - enabled: 1
+    path: Assets/Scenes/Game_Mar/GarrafaPet2.unity
+    guid: 1b38f5c102ffba94881986c1167a4fa7
+  - enabled: 1
     path: Assets/Scenes/Games Poluicao/Lixo Espacial.unity
     guid: 43569f3d94da9c14a883f4a79cd31f32
+  - enabled: 1
+    path: Assets/Scenes/Ciclo da vida/Energia.unity
+    guid: b8ccc5c812dd92549a4a3851face719b
+  - enabled: 1
+    path: Assets/Scenes/Game_Mar/Pneu_Rio.unity
+    guid: 71b4d1edb1e4c164eb88df979eb68522
+  - enabled: 1
+    path: Assets/Scenes/Game_Mar/IlhasLixo.unity
+    guid: ac57e9625a025d9468350defa5425ef7
+  - enabled: 1
+    path: Assets/Scenes/Games Poluicao/Torneiras.unity
+    guid: 9a6287e02c0444e49bca7083680dfe5f
+  - enabled: 1
+    path: Assets/Scenes/Games Poluicao/Esgoto.unity
+    guid: b0f73f04c48b16c41ad08f46a9ff196d
+  - enabled: 1
+    path: Assets/Scenes/Games Poluicao/LixoRua.unity
+    guid: 596a3e014fcfe36429b9c0b8a7da6d4e
+  - enabled: 1
+    path: Assets/Scenes/Games Poluicao/VazamentoOleo.unity
+    guid: be3eb413cc7353049b3b226b0de1dfb5
+  - enabled: 1
+    path: Assets/Scenes/Games Poluicao/VazamentoAgua.unity
+    guid: bb351dda071f6934db52361f9b4c3c4c
+  - enabled: 1
+    path: Assets/Scenes/Game_Mar/ManchOleo.unity
+    guid: 3cc2d199739e83e49a7e32b66b21bd43
+  - enabled: 1
+    path: Assets/Scenes/Game_Mar/PlataformaPetr.unity
+    guid: a972eea6e1becda45a3070e7e7419d27
+  - enabled: 1
+    path: Assets/Scenes/Ciclo da vida/DeligarLuz.unity
+    guid: 682ea01968157114a8438b5b4c0e3e37
+  - enabled: 1
+    path: Assets/Scenes/Ciclo da vida/DesligarPC.unity
+    guid: edad552e018068345984b0f2ce7c28b6
+  - enabled: 1
+    path: Assets/Scenes/Games Poluicao/ColetarPilhas.unity
+    guid: 8b2d42baf3f2d5840af58b829f3a1a7d
   m_configObjects: {}

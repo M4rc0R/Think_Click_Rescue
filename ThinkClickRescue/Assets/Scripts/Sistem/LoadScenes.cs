@@ -5,26 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class LoadScenes : MonoBehaviour
 {
-    private InicioGame enunciado1;
 
    public void LoadScene(string nome)
    {
     SceneManager.LoadScene(nome);
-   }
+    Time.timeScale = 1;
+    }
 
    public void ResetGame()
    {
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    Time.timeScale = 1;
    }
 
-    public void SairEnunciado(string nome) {
-
-        GameObject Enunciado = GameObject.FindGameObjectWithTag("Enunciado1");
-        this.enunciado1 = Enunciado.GetComponent<InicioGame>();
-        this.enunciado1.Esconder();
-        SceneManager.LoadScene(nome);
-
-    }
 
    public void NextGame()
    {

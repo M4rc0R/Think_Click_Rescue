@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        Time.timeScale = 1;
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
@@ -99,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
         {
             vitoria.SetActive(true);
             audio.mute = true;
+            Time.timeScale = 0;
         }
 
         

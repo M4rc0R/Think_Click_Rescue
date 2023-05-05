@@ -16,6 +16,7 @@ public class Pegagarrafas : MonoBehaviour
 
     private void Start()
     {
+       
         win = false;
        
     }
@@ -48,6 +49,7 @@ public class Pegagarrafas : MonoBehaviour
         {
             vitoria.SetActive(true);
             audio.mute = true;
+            Time.timeScale = 0;
         }
 
 

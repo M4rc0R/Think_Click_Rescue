@@ -24,6 +24,7 @@ public class player : MonoBehaviour
     {
         win = false;
         loser = false;
+      
     }
 
     // Update is called once per frame
@@ -63,12 +64,14 @@ public class player : MonoBehaviour
         {
             vitoria.SetActive(true);
             audio.mute = true;
+            Time.timeScale = 0;
         }
 
         if (loser == true)         
         {
             derrota.SetActive(true);
             audio.mute = true;
+            Time.timeScale = 0;
         }
 
     }
