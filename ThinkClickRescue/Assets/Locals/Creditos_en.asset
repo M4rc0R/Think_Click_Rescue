@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Creditos_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8758fb3bcf773c74282a18ae2cd510cc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7745171456
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195146674176
+    m_Localized: 'Developer
+
+      
+
+      Game Designer'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 396271939584
+    m_Localized: 'Designer
+
+      
+
+      Game Design'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4719269769216
+    m_Localized: 'Thanks for playing!
+
+      
+
+      This project was developed
+      so that in a simple way we can make the population aware of the advances in
+      wear and tear in the Environment.
+
+      
+
+      We hope this has changed
+      your view on the subject a little, even if it''s for a fraction of a second.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4901294174208
+    m_Localized: You have completed Think Click Rescue!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

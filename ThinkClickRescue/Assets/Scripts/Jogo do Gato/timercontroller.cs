@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class timercontroller : MonoBehaviour
 {
     public GameObject vitoria;
     public AudioSource audio;
+    public int levelUnlock;
+    int numberOfUnlockedLevels;
     public Image timer_foreground_image;
     float time_remaining;
     public float max_time;
@@ -32,6 +35,15 @@ public class timercontroller : MonoBehaviour
         }
         else
         {
+
+                numberOfUnlockedLevels = PlayerPrefs.GetInt("levelsUnlocked");
+
+                if (numberOfUnlockedLevels <= levelUnlock) 
+                {
+                    PlayerPrefs.SetInt("LevelUnlocked", numberOfUnlockedLevels + 1);
+                }
+
+
             vitoria.SetActive(true);
             temtempo = false;
             audio.mute = true;

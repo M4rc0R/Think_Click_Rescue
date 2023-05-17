@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Portuguese (Brazil) (pt-BR)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Portuguese (Brazil) (pt-BR)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 149dd987359b0e94a8508ded7dba3f83
+  m_SerializeEntries:
+  - m_GUID: 73c6389ef72c82343882c9cfb354db5c
+    m_Address: StringTable_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    - Preload
+  - m_GUID: 1fa6168f6690b024b94fb464fd85be9f
+    m_Address: Enunciados_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    - Preload
+  - m_GUID: f27114e5243c59f4ab0150cf972fc83b
+    m_Address: Enunciados Ciclo_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    - Preload
+  - m_GUID: eb156ce2c04da1a4988beee5ce7f8f53
+    m_Address: Jogos Mar_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    - Preload
+  - m_GUID: 2176964042f12be4baf43892a05f755d
+    m_Address: Jogos Pluicao1_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    - Preload
+  - m_GUID: 6fcc9e2584a4d5f4c8e11a48cb46f9cf
+    m_Address: Creditos_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    - Preload
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: fe31d4da93c2d74488b04337a4761a49, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f7ab9161c86590545a11efe8c0a5ffa0, type: 2}
+    - {fileID: 11400000, guid: e6e9d8d094f489b4bb37a9569f0cf97c, type: 2}

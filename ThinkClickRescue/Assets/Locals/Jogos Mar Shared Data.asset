@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Jogos Mar Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Jogos Mar
+  m_TableCollectionNameGuidString: 3a1726494af3e5541b596a4891171ddd
+  m_Entries:
+  - m_Id: 6092615680
+    m_Key: Jogo Tartaruga1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118797758464
+    m_Key: Jogo Tartaruga2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2415804149760
+    m_Key: Oleo Mar1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2529243295744
+    m_Key: Oleo Mar2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6439962013696
+    m_Key: Petroleo1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6578151747584
+    m_Key: Petroleo2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7756591788032
+    m_Key: Pneu1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7908043911168
+    m_Key: Pneu2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9437693997056
+    m_Key: Retirar Garrafas1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9587879440384
+    m_Key: Retirar Garrafas2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2814542183596032004
+  references:
+    version: 2
+    RefIds:
+    - rid: 2814542183596032004
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1683682350231

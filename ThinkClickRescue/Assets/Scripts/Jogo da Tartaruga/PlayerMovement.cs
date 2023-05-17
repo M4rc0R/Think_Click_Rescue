@@ -101,6 +101,11 @@ public class PlayerMovement : MonoBehaviour
             vitoria.SetActive(true);
             audio.mute = true;
             Time.timeScale = 0;
+            if (SceneManager.GetActiveScene().buildIndex > PlayerPrefs.GetInt("faseCompletada"))
+            {
+                PlayerPrefs.SetInt("faseCompletada", SceneManager.GetActiveScene().buildIndex);
+                PlayerPrefs.Save();
+            }
         }
 
         

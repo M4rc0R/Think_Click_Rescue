@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Jogos Mar_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 3a1726494af3e5541b596a4891171ddd, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6092615680
+    m_Localized: "Desvie dos lixos e leve a tartaruga at\xE9 a toca"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118797758464
+    m_Localized: "Utilize para direcional para movimentar at\xE9 a toca"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2415804149760
+    m_Localized: Retire as manchas de oleo do mar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2529243295744
+    m_Localized: Utilize o botao esquerdo mouse, clicando nas manchas para retirar
+      o oleo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6439962013696
+    m_Localized: Desligue as plataformas de petroleo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6578151747584
+    m_Localized: Utilize o botao esquerdo mouse, clicando nas plataformas e desligando-as
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7756591788032
+    m_Localized: 'Retire os pneus '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7908043911168
+    m_Localized: Utilize o botao esquerdo do mouse para segurar e arrastar os pneus
+      para (cima) fora do lago
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9437693997056
+    m_Localized: Retire as garrafas do oceano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9587879440384
+    m_Localized: Utilize o botao esquerdo do mouse para segurar e arrastar as garrafas
+      para (cima) fora do lago
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

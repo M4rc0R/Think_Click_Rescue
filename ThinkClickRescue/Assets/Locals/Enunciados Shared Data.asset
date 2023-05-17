@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Enunciados Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Enunciados
+  m_TableCollectionNameGuidString: 24c3cceaf6e79d9438c3f53771b68b8b
+  m_Entries:
+  - m_Id: 8462397440
+    m_Key: Jogo do Gato titulo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 221298159616
+    m_Key: Jogo do Gato descricao
+    m_Metadata:
+      m_Items: []
+  - m_Id: 381487017984
+    m_Key: Comecar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 562613841920
+    m_Key: Vitoria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704012218368
+    m_Key: Derrota
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9312779235328
+    m_Key: Jogo Panda Descricao
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9697627598848
+    m_Key: Jogo Panda Descricao 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10923572326400
+    m_Key: Jogo Arvores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11063192317952
+    m_Key: Jogo Arvores 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19406879322112
+    m_Key: Jogo da Abelha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19539801010176
+    m_Key: Jogo Abelha 2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2814542183596032002
+  references:
+    version: 2
+    RefIds:
+    - rid: 2814542183596032002
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1683668815787

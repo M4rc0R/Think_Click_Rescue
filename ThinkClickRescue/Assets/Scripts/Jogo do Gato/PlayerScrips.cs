@@ -72,11 +72,11 @@ public class PlayerScrips : MonoBehaviour
     {
         if(win == true)
         {
-
             loser = false;
             vitoria.SetActive(true);
             audio.mute = true;
             this.gameObject.SetActive(false);
+            
 
         }
 

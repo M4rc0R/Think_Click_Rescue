@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Game_Mar/Pneu_Rio.unity
     guid: 71b4d1edb1e4c164eb88df979eb68522
   - enabled: 1
+    path: Assets/Scenes/Game_Queimadas/FlorestaChamas.unity
+    guid: 27d5456ced866714cb9e7d14692d1c06
+  - enabled: 1
     path: Assets/Scenes/Game_Mar/IlhasLixo.unity
     guid: ac57e9625a025d9468350defa5425ef7
   - enabled: 1
@@ -77,4 +80,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Games Poluicao/ColetarPilhas.unity
     guid: 8b2d42baf3f2d5840af58b829f3a1a7d
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 18b1b72be7539664eb49a157bc2a7631, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 32da403f412419d47aed0092d1c8cf50, type: 2}

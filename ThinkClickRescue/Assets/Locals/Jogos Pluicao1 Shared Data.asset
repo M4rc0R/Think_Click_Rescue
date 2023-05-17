@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Jogos Pluicao1 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Jogos Pluicao1
+  m_TableCollectionNameGuidString: 5d42f56ef05bca846b60f313373f1e4a
+  m_Entries:
+  - m_Id: 24878903296
+    m_Key: Carros 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364344897536
+    m_Key: carros 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2985730371584
+    m_Key: Pilhas1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3098695561216
+    m_Key: Pilhas2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6169760755712
+    m_Key: Esgoto1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6434534584320
+    m_Key: Esgoto2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8291654955008
+    m_Key: Fabricas1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8425683939328
+    m_Key: Fabricas2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16085972021248
+    m_Key: Lixo Espacial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16212585476096
+    m_Key: Lixo Espacial2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20741393608704
+    m_Key: Lixo Rua1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20833563439104
+    m_Key: Lixo Rua 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23928993345536
+    m_Key: Torneiras1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24065752821760
+    m_Key: Torneiras2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28972492910592
+    m_Key: Vazamento Agua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29093645381632
+    m_Key: Vazamento Agua 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32610586062848
+    m_Key: Vazamento Oleo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32807647047680
+    m_Key: Vazamento Oleo2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2814542199121510400
+  references:
+    version: 2
+    RefIds:
+    - rid: 2814542199121510400
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1683727231721

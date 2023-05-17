@@ -42,8 +42,9 @@ public class GerenciarFabricas : MonoBehaviour
 
 
 
-        if (FumacaLigada1.destuiu == true && FumacaLigada2.destuiu2 == true && FumacaLigada3.destuiu3 == true && FumacaLigada4.destuiu4 == true)
+        if (FabricaFumaca1.destuiu == true && FabricaFumaca2.destuiu2 == true && FabricaFumaca3.destuiu3 == true && FabricaFumaca4.destuiu4 == true)
         {
+           
 
             temFumaca = false;
             Time.timeScale = 0;

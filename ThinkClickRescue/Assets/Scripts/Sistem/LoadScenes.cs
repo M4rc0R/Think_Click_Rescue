@@ -5,11 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class LoadScenes : MonoBehaviour
 {
+    public int sceneIndex;
 
    public void LoadScene(string nome)
    {
     SceneManager.LoadScene(nome);
     Time.timeScale = 1;
+    }
+
+    public void OpenScene() 
+    {
+        SceneManager.LoadScene(sceneIndex);
     }
 
    public void ResetGame()

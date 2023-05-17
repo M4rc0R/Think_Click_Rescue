@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Creditos_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 8758fb3bcf773c74282a18ae2cd510cc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7745171456
+    m_Localized: Creditos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195146674176
+    m_Localized: 'Desarrollador
+
+      
+
+      Disenador de juegos'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 396271939584
+    m_Localized: 'Disenador
+
+      
+
+      Diseno de juego'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4719269769216
+    m_Localized: "\xA1Gracias por jugar!\r\n\r\nEste proyecto se desarroll\xF3 para
+      que de una forma sencilla podamos concienciar a la poblaci\xF3n de los avances
+      en el desgaste del Medio Ambiente.\r\n\r\nEsperamos que esto haya cambiado
+      un poco tu punto de vista sobre el tema, aunque sea por una fracci\xF3n de
+      segundo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4901294174208
+    m_Localized: "\xA1Has completado Think Click Rescue!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

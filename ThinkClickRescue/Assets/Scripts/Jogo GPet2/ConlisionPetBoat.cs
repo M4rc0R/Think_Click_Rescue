@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ConlisionPetBoat : MonoBehaviour
@@ -30,6 +31,11 @@ public class ConlisionPetBoat : MonoBehaviour
         if (win == true) 
         {
             vitoria.SetActive(true);
+            if (SceneManager.GetActiveScene().buildIndex > PlayerPrefs.GetInt("faseCompletada"))
+            {
+                PlayerPrefs.SetInt("faseCompletada", SceneManager.GetActiveScene().buildIndex);
+                PlayerPrefs.Save();
+            }
         };
     }
 
@@ -44,7 +50,9 @@ public class ConlisionPetBoat : MonoBehaviour
 
         if (garrafas == 4)
         {
+          
             win = true;
+            
         }
     }
 }

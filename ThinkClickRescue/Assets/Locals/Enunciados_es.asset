@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Enunciados_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 24c3cceaf6e79d9438c3f53771b68b8b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 8462397440
+    m_Localized: Huye de las llamas con el gato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 221298159616
+    m_Localized: Usa la tecla ESPACIO para saltar obstaculos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 381487017984
+    m_Localized: Comenzar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 562613841920
+    m_Localized: siguiente juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704012218368
+    m_Localized: "Men\xFA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9312779235328
+    m_Localized: "\xA1Ayuda al panda a escapar de las llamas!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9697627598848
+    m_Localized: Usa el pad direccional para moverte hacia la salida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10923572326400
+    m_Localized: apagar el incendio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11063192317952
+    m_Localized: "Utilice el bot\xF3n izquierdo del rat\xF3n, haciendo clic en los
+      \xE1rboles en llamas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19406879322112
+    m_Localized: Recoge el polem con la abeja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19539801010176
+    m_Localized: Usa el teclado direccional para moverte y tocar las flores para
+      recoger el polen.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

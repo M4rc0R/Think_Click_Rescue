@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Enunciados_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 24c3cceaf6e79d9438c3f53771b68b8b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 8462397440
+    m_Localized: Corra das chamas com o gato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 221298159616
+    m_Localized: "Utilize a tecla ESPA\xC7O para pular os obstaculos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 381487017984
+    m_Localized: Comecar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 562613841920
+    m_Localized: Proximo Jogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704012218368
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9312779235328
+    m_Localized: Ajude o panda a fugir das chamas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9697627598848
+    m_Localized: "Utilize para direcional para movimentar at\xE9 a sa\xEDda"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10923572326400
+    m_Localized: Apague o fogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11063192317952
+    m_Localized: Utilize o botao esquerdo mouse, clicando nas arvores em chamas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19406879322112
+    m_Localized: Colete o polem com a abelha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19539801010176
+    m_Localized: Utilize para direcional para movimentar e encoste nas flores para
+      coletar o polem
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

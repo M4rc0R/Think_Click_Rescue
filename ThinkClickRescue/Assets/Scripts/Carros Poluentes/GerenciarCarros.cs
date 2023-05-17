@@ -44,10 +44,15 @@ public class GerenciarCarros : MonoBehaviour
 
         if (FumacaLigada1.destuiu == true && FumacaLigada2.destuiu2 == true && FumacaLigada3.destuiu3 == true && FumacaLigada4.destuiu4 == true) 
         {
-
+            
             temFumaca = false;
             Time.timeScale = 0;
             vitoria.SetActive(true);
+            if (SceneManager.GetActiveScene().buildIndex > PlayerPrefs.GetInt("faseCompletada")) 
+            {
+                PlayerPrefs.SetInt("faseCompletada", SceneManager.GetActiveScene().buildIndex);
+                PlayerPrefs.Save();
+            }
         
         }
     }

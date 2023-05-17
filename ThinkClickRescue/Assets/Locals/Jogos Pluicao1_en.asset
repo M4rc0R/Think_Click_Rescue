@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Jogos Pluicao1_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5d42f56ef05bca846b60f313373f1e4a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 24878903296
+    m_Localized: Turn off polluting cars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364344897536
+    m_Localized: Use the left mouse button, clicking on the cars to turn off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2985730371584
+    m_Localized: Collect the piles from the floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3098695561216
+    m_Localized: Use the left mouse button to pick up and drag the object to the
+      trash can
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6169760755712
+    m_Localized: Stop the garbage leak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6434534584320
+    m_Localized: Use the left mouse button, clicking on the tubes and stop the water
+      flow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8291654955008
+    m_Localized: Shut down polluting factories
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8425683939328
+    m_Localized: Use the left mouse button, clicking on the factories to turn them
+      off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16085972021248
+    m_Localized: Take space junk out of the atmosphere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16212585476096
+    m_Localized: Use the left mouse button to grab and drag the object (up) out of
+      the atmosphere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20741393608704
+    m_Localized: Collect garbage from the street
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20833563439104
+    m_Localized: Use the left mouse button to pick up and drag the object onto the
+      truck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23928993345536
+    m_Localized: Close the taps and save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24065752821760
+    m_Localized: Use the left mouse button, clicking on the taps to close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28972492910592
+    m_Localized: Stop the water leak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29093645381632
+    m_Localized: Use the left mouse button, clicking on the water and stop the leak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32610586062848
+    m_Localized: Stop the oil leak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32807647047680
+    m_Localized: Use the left mouse button, clicking on the oil and stop the leak.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

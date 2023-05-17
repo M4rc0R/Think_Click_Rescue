@@ -13,6 +13,9 @@ public class player : MonoBehaviour
     public AudioSource audio;
     public Animator animator;
 
+    public int levelUnlock;
+    int numberOfUnlockedLevels;
+
 
     private bool win;
     private bool loser;
@@ -62,9 +65,17 @@ public class player : MonoBehaviour
     {
         if(win == true)
         {
+            
             vitoria.SetActive(true);
             audio.mute = true;
             Time.timeScale = 0;
+
+            numberOfUnlockedLevels = PlayerPrefs.GetInt("levelsUnlocked");
+
+            if (numberOfUnlockedLevels <= levelUnlock)
+            {
+                PlayerPrefs.SetInt("LevelUnlocked", numberOfUnlockedLevels + 1);
+            }
         }
 
         if (loser == true)         

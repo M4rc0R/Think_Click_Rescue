@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Enunciados Ciclo_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 5a885e71e01423e4a9341895de61f7b0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7904555008
+    m_Localized: Apague as luzes para economizar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128666955776
+    m_Localized: Utilize o botao esquerdo mouse, nos lustres para apagar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2087042019328
+    m_Localized: Desligue os computadores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2210316808192
+    m_Localized: Utilize o botao esquerdo mouse, nos computadores para desliga-los
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4705894133760
+    m_Localized: Conecte as helices em suas bases
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4871212625920
+    m_Localized: Utilize o mouse para movimentar e conectar as helices nas base.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10880744288256
+    m_Localized: Tire as garrafas do mar e coloque no barco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11011765956608
+    m_Localized: Utilize o botao esquerdo do mouse para pegar e arrastar as garrafas
+      para o barco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12919255724032
+    m_Localized: "Colete os res\xEDduos e jogo no lixo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13172335833088
+    m_Localized: Utilize o botao esquerdo do mouse para segurar e arrastar os residuos
+      para a lata de lixo
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

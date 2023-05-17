@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Enunciados Ciclo_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 5a885e71e01423e4a9341895de61f7b0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7904555008
+    m_Localized: Apaga las luces para ahorrar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128666955776
+    m_Localized: "Use el bot\xF3n izquierdo del mouse en los candelabros para eliminar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2087042019328
+    m_Localized: apagar las computadoras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2210316808192
+    m_Localized: "Use el bot\xF3n izquierdo del mouse en las computadoras para apagarlas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4705894133760
+    m_Localized: Conectar las helices a sus bases.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4871212625920
+    m_Localized: "Usa el rat\xF3n para mover y conectar las h\xE9lices a las bases."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10880744288256
+    m_Localized: Saca las botellas del mar y ponlas en el barco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11011765956608
+    m_Localized: "Usa el bot\xF3n izquierdo del rat\xF3n para recoger y arrastrar
+      las botellas al barco."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12919255724032
+    m_Localized: "Recoge los desechos y t\xEDralos a la basura"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13172335833088
+    m_Localized: "Use el bot\xF3n izquierdo del mouse para sostener y arrastrar los
+      desechos a la papelera"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

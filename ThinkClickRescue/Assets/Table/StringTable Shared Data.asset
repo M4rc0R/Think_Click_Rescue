@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: StringTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: StringTable
+  m_TableCollectionNameGuidString: 28c86e344b280a04898f8d0212cd5310
+  m_Entries:
+  - m_Id: 44147535872
+    m_Key: Configs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8728084869120
+    m_Key: Jogar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8825594048512
+    m_Key: Sair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10867968438272
+    m_Key: Tela
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11203495981056
+    m_Key: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11324627480576
+    m_Key: Graficos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13482387173376
+    m_Key: Voltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27631326457856
+    m_Key: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51691540312064
+    m_Key: Linguagens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52115718664192
+    m_Key: Espanhol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52265706975232
+    m_Key: Ingles
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2814542180345708568
+  references:
+    version: 2
+    RefIds:
+    - rid: 2814542180345708568
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1683655785602
